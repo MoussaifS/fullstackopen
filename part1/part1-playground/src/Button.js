@@ -1,3 +1,3 @@
-const Button = ({task , taskName}) => {<button onClick={props.task}>{props.taskName}</button>  
+const Button = ({task , taskName}) => <button onClick={task}>{taskName}</button>  
 
 export default Button

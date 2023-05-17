@@ -18,6 +18,8 @@ const Content = (props) => {
   )
 } 
 
+
+
 const Total = (props) =>{
   
   let sum = 0;
