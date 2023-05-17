@@ -17,12 +17,33 @@ const Statistics = (props) => {
   return (
 
     <div>
-      <span>positive {positive}</span> <br/>
-      <span>neutral {neutral}</span> <br/>
-      <span>bad {neg}</span> <br/>
-      <span>all {all}</span> <br/>
-      <span>avg { (( total / all)* 2)-1}</span> <br/>
-      <span>positive {(positive/total)*100} %</span>
+    <table>
+    
+    <tr>
+      <td>positive</td>
+      <td>{positive}</td>
+    </tr>
+    <tr>
+      <td>neutral</td>
+      <td>{neutral}</td>
+    </tr>
+    <tr>
+      <td>bad</td>
+      <td>{neg}</td>
+    </tr>
+    <tr>
+      <td>all</td>
+      <td>{all}</td>
+    </tr>
+    <tr>
+      <td>avg</td>
+      <td>{ (( total / all)* 2)-1}</td>
+    </tr>
+    <tr>
+      <td>positive</td>
+      <td>{(positive/total)*100} %</td>
+    </tr>
+  </table>
     </div>
   )
 }
